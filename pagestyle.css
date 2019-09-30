@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+*
+{
+  box-sizing: border-box;
+  font-family: Be Vietnam;
+  color: #777777;
+}
+
+html
+{
+  background-image: linear-gradient(-90deg,aqua,aquamarine);
+  padding: 0;
+  margin: 0;
+
+}
+
+body
+{
+    background-image: linear-gradient(-90deg,aqua,aquamarine);
+    padding: 0;
+    margin: 0;
+}
+
+.mainhead a
+{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul
+{
+    margin: 0;
+}
+
+.nav li
+{
+    display: inline;
+}
+
+.nav a
+{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover
+{
+  background-color: rgba(255,255,255,0.2);
+}
+
+.socials li
+{
+    display: inline;
+}
+
+.socials a
+{
+    display: inline-block;
+    padding: 0.0em;
+}
+
+.socials img:hover
+{
+    background-color: rgba(255,255,255,0.9);
+}
+.my-header
+{
+    background-image: url('images/code.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    padding: 30px;
+
+}
+
+.footnote
+{
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+}
+
+.maincontent
+{
+    position: fixed;
+    top: 160px;
+    left: 50px;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+hr
+{
+    border: 1px solid gray;
+}
+
+.mainhr
+{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.mywork
+{   
+    position: fixed;
+    left: 50px;
+}
+
+.extras
+{
+   position:fixed;
+   left: 45%;
+}
+
+#thisbutton
+{
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Be Vietnam;
+}
+
+#thisbutton a
+{
+    text-decoration: none;
+}
